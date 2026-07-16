@@ -13,7 +13,7 @@ interface I18nContextType {
   locale: Locale;
   routeLocale: RouteLocale;
   setRouteLocale: (routeLocale: RouteLocale) => void;
-  t: (key: string) => string;
+  t: (key: string) => any;
   dir: 'ltr' | 'rtl';
 }
 
@@ -41,7 +41,7 @@ export function LanguageProvider({
     window.location.href = `/${newRouteLocale}`;
   };
 
-  const t = (key: string): string => {
+  const t = (key: string): any => {
     const keys = key.split('.');
     let value: any = translations[locale];
     for (const k of keys) {
