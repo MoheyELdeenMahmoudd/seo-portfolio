@@ -20,6 +20,21 @@ export default function LanguageSwitch() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+  const [, , ...rest] = pathname.split('/');
+  const isInnerPage = rest[0] === 'projects' || rest[0] === 'blog';
+
+  // If we are on an inner page, only show EN and AR
+  const links = isInnerPage ? [
+    { code: 'ar', label: 'العربية' },
+    { code: 'en', label: 'English' }
+  ] : [
+    { code: 'eg-ar', label: 'مصر (عربي)' },
+    { code: 'eg-en', label: 'Egypt (EN)' },
+    { code: 'sa-ar', label: 'السعودية (عربي)' },
+    { code: 'sa-en', label: 'Saudi (EN)' }
+  ];
+
   return (
     <div className="relative" ref={dropdownRef}>
       <button
@@ -32,21 +47,17 @@ export default function LanguageSwitch() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full mt-2 rtl:left-0 ltr:right-0 bg-[var(--bg-card)] border border-[var(--border)] rounded-xl shadow-xl p-2 min-w-[120px] flex flex-col gap-1 z-50">
-          <Link 
-            href="/ar" 
-            className={`px-3 py-2 text-sm font-bold rounded-lg transition-colors ${routeLocale === 'ar' ? 'bg-primary/10 text-primary' : 'hover:bg-[var(--border)] text-[var(--text)]'}`}
-            onClick={() => setIsOpen(false)}
-          >
-            العربية
-          </Link>
-          <Link 
-            href="/en" 
-            className={`px-3 py-2 text-sm font-bold rounded-lg transition-colors ${routeLocale === 'en' ? 'bg-primary/10 text-primary' : 'hover:bg-[var(--border)] text-[var(--text)]'}`}
-            onClick={() => setIsOpen(false)}
-          >
-            English
-          </Link>
+        <div className="absolute top-full mt-2 rtl:left-0 ltr:right-0 bg-[var(--bg-card)] border border-[var(--border)] rounded-xl shadow-xl p-2 min-w-[150px] flex flex-col gap-1 z-50">
+          {links.map(link => (
+            <Link 
+              key={link.code}
+              href={`/${link.code}/${rest.join('/')}`} 
+              className={`px-3 py-2 text-sm font-bold rounded-lg transition-colors ${routeLocale === link.code ? 'bg-primary/10 text-primary' : 'hover:bg-[var(--border)] text-[var(--text)]'}`}
+              onClick={() => setIsOpen(false)}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
       )}
     </div>

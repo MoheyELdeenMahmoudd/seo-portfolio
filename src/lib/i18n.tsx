@@ -7,7 +7,7 @@ import ar from '../i18n/ar.json';
 const translations = { en, ar };
 
 export type Locale = 'en' | 'ar';
-export type RouteLocale = 'en' | 'ar';
+export type RouteLocale = 'eg-en' | 'eg-ar' | 'sa-en' | 'sa-ar' | 'en' | 'ar';
 
 interface I18nContextType {
   locale: Locale;
@@ -21,16 +21,16 @@ const I18nContext = createContext<I18nContextType | null>(null);
 
 export function LanguageProvider({ 
   children, 
-  initialLocale = 'en' 
+  initialLocale = 'eg-en' 
 }: { 
   children: React.ReactNode; 
   initialLocale?: string;
 }) {
-  const [routeLocale, setRouteLocaleState] = useState<RouteLocale>((initialLocale as RouteLocale) || 'en');
+  const [routeLocale, setRouteLocaleState] = useState<RouteLocale>((initialLocale as RouteLocale) || 'eg-en');
   const [mounted, setMounted] = useState(false);
   
   // Extract actual language from the route locale
-  const locale: Locale = routeLocale === 'ar' ? 'ar' : 'en';
+  const locale: Locale = routeLocale.includes('ar') ? 'ar' : 'en';
 
   useEffect(() => {
     setMounted(true);

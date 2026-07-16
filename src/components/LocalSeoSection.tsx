@@ -7,6 +7,47 @@ export default function LocalSeoSection() {
   const { routeLocale, dir } = useTranslation();
 
   const content = {
+    'eg-ar': {
+      title: 'خبير سيو في مصر',
+      subtitle: 'الاستهداف المحلي (Local SEO)',
+      description: 'أقدم خدمات تحسين محركات البحث المتقدمة في جميع أنحاء مصر (القاهرة، الإسكندرية، المنصورة، وغيرها). أساعد الشركات المصرية على الهيمنة على نتائج البحث المحلية وجذب العملاء المحتملين.',
+      stats: [
+        { label: 'ملف تجاري تم تحسينه', value: '+50' },
+        { label: 'زيادة في الزيارات المحلية', value: '%300' },
+        { label: 'تصدر في خرائط جوجل', value: '+150' }
+      ]
+    },
+    'eg-en': {
+      title: 'SEO Expert in Egypt',
+      subtitle: 'Local SEO Strategy',
+      description: 'Providing advanced Search Engine Optimization services across Egypt (Cairo, Alexandria, Mansoura, etc.). I help Egyptian businesses dominate local search results and drive high-quality leads.',
+      stats: [
+        { label: 'Google Business Profiles Optimized', value: '50+' },
+        { label: 'Increase in Local Traffic', value: '300%' },
+        { label: 'Top 3 Map Pack Rankings', value: '150+' }
+      ]
+    },
+    'sa-ar': {
+      title: 'خبير سيو في السعودية',
+      subtitle: 'الاستهداف المحلي (Local SEO)',
+      description: 'أقدم خدمات سيو احترافية للشركات في المملكة العربية السعودية (الرياض، جدة، الدمام، مكة). تصدر نتائج البحث في السوق السعودي الواعد مع استراتيجيات مخصصة للسوق الخليجي.',
+      stats: [
+        { label: 'ملف تجاري تم تحسينه', value: '+50' },
+        { label: 'زيادة في الزيارات المحلية', value: '%300' },
+        { label: 'تصدر في خرائط جوجل', value: '+150' }
+      ]
+    },
+    'sa-en': {
+      title: 'SEO Expert in Saudi Arabia',
+      subtitle: 'Local SEO Strategy',
+      description: 'Providing professional SEO services for businesses in Saudi Arabia (Riyadh, Jeddah, Dammam, Mecca). Dominate search results in the promising Saudi market with custom Gulf-tailored strategies.',
+      stats: [
+        { label: 'Google Business Profiles Optimized', value: '50+' },
+        { label: 'Increase in Local Traffic', value: '300%' },
+        { label: 'Top 3 Map Pack Rankings', value: '150+' }
+      ]
+    },
+    // Fallbacks for global pages
     'en': {
       title: 'Local SEO Domination',
       subtitle: 'Conquer Your Local Market',

@@ -1,14 +1,15 @@
 import { MetadataRoute } from 'next';
 import contentData from '../data/content.json';
 
-const locales = ['en', 'ar'];
+const homeLocales = ['eg-en', 'eg-ar', 'sa-en', 'sa-ar'];
+const globalLocales = ['en', 'ar'];
 const baseUrl = 'https://seo-portfolio-ebon.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapData: MetadataRoute.Sitemap = [];
 
-  // Add the base paths for all locales
-  locales.forEach((locale) => {
+  // Add the base paths for all homepage locales
+  homeLocales.forEach((locale) => {
     sitemapData.push({
       url: `${baseUrl}/${locale}`,
       lastModified: new Date(),
@@ -16,17 +17,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
       alternates: {
         languages: {
-          'en': `${baseUrl}/en`,
-          'ar': `${baseUrl}/ar`,
-          'x-default': `${baseUrl}/en`,
+          'en-EG': `${baseUrl}/eg-en`,
+          'ar-EG': `${baseUrl}/eg-ar`,
+          'en-SA': `${baseUrl}/sa-en`,
+          'ar-SA': `${baseUrl}/sa-ar`,
+          'x-default': `${baseUrl}/eg-en`,
         },
       },
     });
   });
 
-  // Add all project case studies for all locales
+  // Add all project case studies for global locales
   contentData.projects.forEach((project) => {
-    locales.forEach((locale) => {
+    globalLocales.forEach((locale) => {
       sitemapData.push({
         url: `${baseUrl}/${locale}/projects/${project.id}`,
         lastModified: new Date(),
