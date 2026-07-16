@@ -8,15 +8,16 @@ import { notFound } from 'next/navigation';
 
 export const revalidate = 60; // Revalidate every 60 seconds
 
-export default async function BlogPostPage({ params }: { params: { slug: string; locale: string } }) {
-  const post = await client.fetch(postBySlugQuery, { slug: params.slug });
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string; locale: string }> }) {
+  const { slug, locale } = await params;
+  const post = await client.fetch(postBySlugQuery, { slug });
 
   if (!post) {
     notFound();
   }
 
   // Determine text direction
-  const isArabic = params.locale === 'ar' || params.locale.includes('-ar');
+  const isArabic = locale === 'ar' || locale.includes('-ar');
   const dir = isArabic ? 'rtl' : 'ltr';
 
   const imageUrl = post.mainImage ? urlForImage(post.mainImage).url() : '';

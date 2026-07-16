@@ -7,17 +7,19 @@ import { Metadata } from 'next';
 
 export const revalidate = 60;
 
-export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const isArabic = params.locale === 'ar' || params.locale.includes('-ar');
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const isArabic = locale === 'ar' || locale.includes('-ar');
   return {
     title: isArabic ? 'المدونة | مقالات السيو' : 'Blog | SEO Articles',
     description: isArabic ? 'أحدث المقالات والاستراتيجيات في عالم السيو وتحسين محركات البحث.' : 'Latest articles and strategies in the world of SEO.',
   };
 }
 
-export default async function BlogPage({ params }: { params: { locale: string } }) {
+export default async function BlogPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   const posts = await client.fetch(postsQuery);
-  const isArabic = params.locale === 'ar' || params.locale.includes('-ar');
+  const isArabic = locale === 'ar' || locale.includes('-ar');
   const dir = isArabic ? 'rtl' : 'ltr';
 
   // Filter posts by the current base language (en or ar)
@@ -45,7 +47,7 @@ export default async function BlogPage({ params }: { params: { locale: string } 
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {localizedPosts.map((post: any) => (
-              <Link key={post._id} href={`/${params.locale}/blog/${post.slug.current}`} className="group block h-full">
+              <Link key={post._id} href={`/${locale}/blog/${post.slug.current}`} className="group block h-full">
                 <article className="premium-card overflow-hidden h-full flex flex-col transition-transform duration-300 group-hover:-translate-y-2">
                   {/* Image */}
                   <div className="relative w-full h-56 overflow-hidden">
