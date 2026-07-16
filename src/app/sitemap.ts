@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import contentData from '../data/content.json';
 
 const locales = ['eg-en', 'eg-ar', 'sa-en', 'sa-ar'];
-const baseUrl = 'https://mohey-seo-portfolio.com';
+const baseUrl = 'https://seo-portfolio-ebon.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const sitemapData: MetadataRoute.Sitemap = [];

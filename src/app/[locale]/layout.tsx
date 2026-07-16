@@ -5,8 +5,9 @@ import MouseGlow from "@/components/MouseGlow";
 import "../globals.css";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const baseUrl = 'https://mohey-seo-portfolio.com';
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale;
+  const baseUrl = 'https://seo-portfolio-ebon.vercel.app';
   
   return {
     title: "Mohey ELDeen Mahmoud - Senior SEO Specialist",
@@ -41,11 +42,11 @@ export default async function RootLayout({
     '@graph': [
       {
         '@type': 'Person',
-        '@id': 'https://mohey-seo-portfolio.com/#person',
+        '@id': 'https://seo-portfolio-ebon.vercel.app/#person',
         'name': isArabic ? 'محيي الدين محمود' : 'Mohey ELDeen Mahmoud',
         'jobTitle': 'Senior SEO Consultant',
-        'url': 'https://mohey-seo-portfolio.com',
-        'image': 'https://mohey-seo-portfolio.com/images/mohey.jpeg',
+        'url': 'https://seo-portfolio-ebon.vercel.app',
+        'image': 'https://seo-portfolio-ebon.vercel.app/images/mohey.jpeg',
         'sameAs': [
           'https://www.linkedin.com/in/mohey-mahmoud/',
           'https://www.facebook.com/moheyeldeen.mahmoud.9',
@@ -61,10 +62,10 @@ export default async function RootLayout({
       },
       {
         '@type': 'ProfessionalService',
-        '@id': 'https://mohey-seo-portfolio.com/#service',
+        '@id': 'https://seo-portfolio-ebon.vercel.app/#service',
         'name': isArabic ? 'محيي الدين لخدمات تحسين محركات البحث' : 'Mohey SEO Services',
-        'provider': { '@id': 'https://mohey-seo-portfolio.com/#person' },
-        'url': `https://mohey-seo-portfolio.com/${locale}`,
+        'provider': { '@id': 'https://seo-portfolio-ebon.vercel.app/#person' },
+        'url': `https://seo-portfolio-ebon.vercel.app/${locale}`,
         'areaServed': locale.startsWith('sa') ? 'SA' : 'EG',
         'priceRange': '$$',
         'telephone': '+201551808231',

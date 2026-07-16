@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://mohey-seo-portfolio.com/sitemap.xml',
+    sitemap: 'https://seo-portfolio-ebon.vercel.app/sitemap.xml',
   };
 }
