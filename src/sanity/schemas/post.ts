@@ -7,9 +7,17 @@ export const post = defineType({
   fields: [
     defineField({
       name: 'title',
-      title: 'Title',
+      title: 'Meta Title (Internal)',
       type: 'string',
       validation: (rule) => rule.required(),
+      description: 'Used for SEO and internal dashboard reference.'
+    }),
+    defineField({
+      name: 'h1',
+      title: 'Main Heading (H1)',
+      type: 'string',
+      validation: (rule) => rule.required(),
+      description: 'The main visible heading on the blog post page.'
     }),
     defineField({
       name: 'slug',
@@ -20,6 +28,22 @@ export const post = defineType({
         maxLength: 96,
       },
       validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'ctaText',
+      title: 'Button Text (CTA)',
+      type: 'string',
+      initialValue: 'احصل على استشارة قانونية الآن',
+      description: 'The text that appears on the button under the H1.'
+    }),
+    defineField({
+      name: 'ctaLink',
+      title: 'Button Link',
+      type: 'url',
+      description: 'The link where the button points to (e.g. WhatsApp or Contact page).',
+      validation: Rule => Rule.uri({
+        scheme: ['http', 'https', 'mailto', 'tel']
+      })
     }),
     defineField({
       name: 'language',

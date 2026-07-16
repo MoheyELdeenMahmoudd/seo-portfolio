@@ -18,6 +18,7 @@ export default function Header() {
 
   const navItems = [
     { href: `/${routeLocale}#projects`, label: t('nav.projects') },
+    { href: `/${routeLocale}/blog`, label: locale === 'ar' ? 'المدونة' : 'Blog' },
     { href: `/${routeLocale}#about`, label: t('nav.about') },
     { href: `/${routeLocale}#skills`, label: t('nav.skills') },
     { href: `/${routeLocale}#experience`, label: t('nav.experience') },
