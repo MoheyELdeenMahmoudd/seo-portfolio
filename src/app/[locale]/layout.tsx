@@ -76,6 +76,7 @@ export default async function RootLayout({
   return (
     <html lang={isArabic ? 'ar' : 'en'} dir={isArabic ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="XOYiWYc2De8rdGhka4pHLhXkoe0fpbGk3M5ogBH_P5M" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
