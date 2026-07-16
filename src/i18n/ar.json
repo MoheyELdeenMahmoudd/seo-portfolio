@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "projects": "المشاريع",
+    "about": "عني",
+    "skills": "المهارات",
+    "experience": "الخبرات",
+    "contact": "تواصل معي",
+    "downloadCV": "تحميل السيرة الذاتية",
+    "toggleTheme": "تغيير المظهر"
+  },
+  "hero": {
+    "badge": "خبير سيو أول واستراتيجي محتوى",
+    "title": "أقود موقعك لتصدر ",
+    "titleHighlight": "نتائج البحث (SEO).",
+    "description": "أهلاً، أنا محيي الدين محمود. خبير سيو أول (Senior SEO Expert) واستراتيجي محتوى محترف. أقدم خدمات تحسين محركات البحث الشاملة لضمان تصدر موقعك في جوجل. متخصص في السيو الداخلي (On-Page SEO)، السيو الخارجي وبناء الروابط (Off-Page SEO & Link Building)، السيو التقني (Technical SEO Audit)، السيو الدلالي المتقدم (Semantic SEO & LSI Keywords)، وكتابة محتوى متوافق مع السيو (SEO Copywriting). هدفي هو تحسين تجربة المستخدم (UX SEO) وزيادة الترافيك العضوي (Organic Traffic) ومعدلات التحويل (CRO).",
+    "viewProjects": "شاهد المشاريع وقصص النجاح",
+    "downloadCV": "تحميل السيرة الذاتية (CV)"
+  },
+  "projects": {
+    "subtitle": "أبرز الأعمال في تحسين محركات البحث",
+    "title": "قصص نجاح في تصدر نتائج البحث (SEO Case Studies)",
+    "readCaseStudy": "اقرأ دراسة الحالة"
+  },
+  "about": {
+    "subtitle": "فلسفتي في خدمات السيو (SEO Philosophy)",
+    "title": "نبذة عن خبير السيو",
+    "heading": "دمج السيو التقني والدلالي مع النتائج المبنية على البيانات",
+    "bio1": "بصفتي متخصص سيو أول (Senior SEO Specialist)، أعمل في مجال التسويق الرقمي وتطوير استراتيجيات المحتوى منذ عام 2022. أقدم خدمات تحسين المواقع لمحركات البحث (Search Engine Optimization) باحترافية لتصدر الكلمات المفتاحية التنافسية. أمتلك خبرة عميقة في التدقيق التقني (SEO Audit)، بناء الروابط الخلفية عالية الجودة (High-Quality Backlinks)، وتحسين سرعة الموقع (Core Web Vitals). أطبق أحدث استراتيجيات جوجل في السيو الدلالي (Semantic SEO) وفهم نية البحث (Search Intent).",
+    "bio2": "أعتمد في عملي كـ مستشار سيو (SEO Consultant) على التحليل الدقيق للبيانات باستخدام أدوات احترافية مثل Google Search Console و Google Analytics و Ahrefs و Semrush. أستهدف الكلمات المفتاحية طويلة الذيل (Long-tail Keywords) وكلمات LSI لضمان بناء محتوى قوي (Pillar Content) يحقق نمواً مستداماً للمتاجر الإلكترونية (E-commerce SEO) والشركات (B2B/B2C SEO) في السعودية، مصر، والوطن العربي.",
+    "card1": {
+      "title": "خبير سيو محترف (SEO Expert)",
+      "description": "تصدر نتائج جوجل عبر استراتيجيات سيو داخلي، خارجي، وتقني للسيطرة على الكلمات المفتاحية."
+    },
+    "card2": {
+      "title": "استراتيجي محتوى السيو (SEO Content)",
+      "description": "صياغة محتوى متوافق مع السيو مبني على الكلمات الدلالية و LSI لزيادة الترافيك والتحويلات."
+    },
+    "card3": {
+      "title": "مستشار سيو مبني على البيانات",
+      "description": "مراقبة الأداء، تحليل المنافسين، وتقارير دورية (SEO Reporting) لضمان النمو المستدام."
+    }
+  },
+  "skills": {
+    "subtitle": "التقنيات والأدوات",
+    "title": "المهارات",
+    "categories": {
+      "onPage": "السيو الداخلي (On-Page)",
+      "offPage": "السيو الخارجي (Off-Page)",
+      "technical": "السيو التقني (Technical)",
+      "semantic": "السيو الدلالي (Semantic)",
+      "content": "محتوى السيو",
+      "uxSeo": "سيو تجربة المستخدم (UX SEO)",
+      "tools": "الأدوات",
+      "platforms": "المنصات"
+    },
+    "items": {
+      "onPage": ["البحث عن الكلمات المفتاحية", "تحسين العلامات الوصفية (Meta Tags)", "هيكلة العناوين (H1-H6)", "استراتيجية الربط الداخلي", "تحسين المحتوى", "تحسين الصور (ALT Tags)", "هيكلة الروابط (URL Structure)", "المقتطفات المميزة (Featured Snippets)"],
+      "offPage": ["بناء الروابط (Link Building)", "استراتيجية الجيست بوست (Guest Posting)", "الإشارات للعلامة التجارية", "الإشارات الاجتماعية", "التسجيل في الأدلة", "تحليل روابط المنافسين"],
+      "technical": ["تحسين سرعة الموقع", "مؤشرات أداء الويب الأساسية (Core Web Vitals)", "البيانات المنظمة (Schema Markup)", "قابلية الزحف والفهرسة", "خرائط الموقع (XML Sitemaps)", "تنفيذ hreflang", "العلامات الأساسية (Canonical Tags)", "ملف robots.txt", "أمان الموقع (HTTPS)"],
+      "semantic": ["تحسين الكيانات (Entity Optimization)", "مجموعات المواضيع (Topic Clusters)", "تحسين المحتوى باستخدام معالجة اللغات الطبيعية", "تحليل نية البحث", "الرسم البياني المعرفي (Knowledge Graph)"],
+      "content": ["استراتيجية وتخطيط المحتوى", "كتابة المقالات والمدونات", "الكتابة الإعلانية للسيو", "التسويق بالمحتوى", "خريطة الكلمات المفتاحية", "تدقيق المحتوى"],
+      "uxSeo": ["إشارات تجربة الصفحة", "تحسين التوافق مع الجوال (Mobile-First)", "تجربة المستخدم والتنقل", "تحسين CLS/LCP/FID", "مقاييس تفاعل المستخدم"],
+      "tools": ["SEMRush", "Ahrefs", "Moz Pro", "Screaming Frog", "Google Search Console", "Google Analytics 4", "Mangools (KWFinder)", "Google Keyword Planner", "Google Tag Manager", "PageSpeed Insights"],
+      "platforms": ["ووردبريس (WordPress)", "زد (Zid)", "سلة (Salla)", "ويكس (Wix)", "HTML/CSS/JS", "Next.js"]
+    }
+  },
+  "experience": {
+    "subtitle": "الرحلة المهنية",
+    "title": "الخبرات العملية والأثر"
+  },
+  "results": {
+    "subtitle": "نتائج مثبتة",
+    "title": "نتائج تتحدث عن نفسها"
+  },
+  "contact": {
+    "subtitle": "تواصل معي",
+    "title": "دعنا نضاعف زياراتك",
+    "nameLabel": "اسمك",
+    "emailLabel": "بريدك الإلكتروني",
+    "messageLabel": "تفاصيل المشروع أو الرسالة",
+    "sendButton": "إرسال الرسالة",
+    "phone": "اتصال / واتساب",
+    "whatsapp": "تحدث معي فوراً"
+  },
+  "footer": {
+    "title": "محيي الدين محمود",
+    "subtitle": "خبير سيو أول",
+    "copyright": "جميع الحقوق محفوظة. صُمم للسيطرة على نتائج البحث."
+  },
+  "admin": {
+    "title": "لوحة التحكم",
+    "login": "تسجيل الدخول للوحة التحكم"
+  }
+}

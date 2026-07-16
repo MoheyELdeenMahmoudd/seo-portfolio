@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact",
+    "downloadCV": "Download CV",
+    "toggleTheme": "Toggle theme"
+  },
+  "hero": {
+    "badge": "Senior SEO Expert & Content Strategist",
+    "title": "I drive websites to the top of ",
+    "titleHighlight": "search results (SEO).",
+    "description": "Hi, I'm Mohey ELDeen Mahmoud. A Senior SEO Consultant and Content Strategist. I specialize in comprehensive Search Engine Optimization services to guarantee #1 Google rankings. My expertise includes On-Page SEO optimization, High-Quality Link Building (Off-Page SEO), Technical SEO Audits, Advanced Semantic SEO, LSI Keywords mapping, and SEO Copywriting. My ultimate goal is to enhance Page Experience (UX SEO), skyrocket Organic Traffic, and maximize Conversion Rate Optimization (CRO).",
+    "viewProjects": "View SEO Case Studies",
+    "downloadCV": "Download Resume (CV)"
+  },
+  "projects": {
+    "subtitle": "Featured SEO Work",
+    "title": "Proven SEO Success Stories & Case Studies",
+    "readCaseStudy": "Read Full Case Study"
+  },
+  "about": {
+    "subtitle": "My SEO Philosophy",
+    "title": "About The SEO Expert",
+    "heading": "Bridging Technical SEO expertise with Data-Driven strategies",
+    "bio1": "As a Senior SEO Specialist, I have been optimizing websites and crafting content strategies since 2022. My extensive background spans across all branches of digital marketing and search visibility. I excel at conducting in-depth SEO Audits, improving Core Web Vitals, and implementing Semantic SEO best practices. I understand exactly how Search Engine Algorithms evaluate websites, focusing on User Intent and Entity Optimization.",
+    "bio2": "My biggest strength is my analytical, data-driven approach. I leverage professional SEO tools like Ahrefs, Semrush, and Google Search Console to uncover high-intent Long-tail Keywords and LSI keywords. I specialize in Pillar Content creation, Local SEO, and E-commerce SEO for Shopify, WordPress, Salla, and Zid, ensuring long-term sustainable growth rather than black-hat quick fixes.",
+    "card1": {
+      "title": "Professional SEO Expert",
+      "description": "Dominating SERPs through advanced On-Page, Off-Page, and Technical SEO strategies."
+    },
+    "card2": {
+      "title": "SEO Content Strategist",
+      "description": "Crafting engaging, LSI-optimized content that ranks high and converts visitors into customers."
+    },
+    "card3": {
+      "title": "Data-Driven Consultant",
+      "description": "Continuous rank tracking, competitor analysis, and detailed SEO Reporting for sustainable growth."
+    }
+  },
+  "skills": {
+    "subtitle": "Technical Stack",
+    "title": "Skills",
+    "categories": {
+      "onPage": "On-Page SEO",
+      "offPage": "Off-Page SEO",
+      "technical": "Technical SEO",
+      "semantic": "Semantic SEO",
+      "content": "SEO Content",
+      "uxSeo": "UX SEO",
+      "tools": "Tools",
+      "platforms": "Platforms"
+    },
+    "items": {
+      "onPage": ["Keyword Research", "Meta Tags Optimization", "Heading Structure (H1-H6)", "Internal Linking Strategy", "Content Optimization", "Image ALT Tags & Optimization", "URL Structure", "Featured Snippets"],
+      "offPage": ["Link Building & Outreach", "Guest Posting Strategy", "Brand Mentions", "Social Signals", "Directory Submissions", "Competitor Backlink Analysis"],
+      "technical": ["Site Speed Optimization", "Core Web Vitals", "Schema Markup (JSON-LD)", "Crawlability & Indexation", "XML Sitemaps", "hreflang Implementation", "Canonical Tags", "robots.txt", "HTTPS & Security"],
+      "semantic": ["Entity Optimization", "Topic Clusters & Pillar Pages", "NLP Content Optimization", "Search Intent Analysis", "Knowledge Graph"],
+      "content": ["Content Strategy & Planning", "Blog & Article Writing", "SEO Copywriting", "Content Marketing", "Keyword Mapping", "Content Auditing"],
+      "uxSeo": ["Page Experience Signals", "Mobile-First Optimization", "Navigation & UX", "CLS/LCP/FID Optimization", "User Engagement Metrics"],
+      "tools": ["SEMRush", "Ahrefs", "Moz Pro", "Screaming Frog", "Google Search Console", "Google Analytics 4", "Mangools (KWFinder)", "Google Keyword Planner", "Google Tag Manager", "PageSpeed Insights"],
+      "platforms": ["WordPress", "Zid (زد)", "Salla (سلة)", "Wix", "HTML/CSS/JS", "Next.js"]
+    }
+  },
+  "experience": {
+    "subtitle": "Professional Journey",
+    "title": "Work Experience & Impact"
+  },
+  "results": {
+    "subtitle": "Proven Results",
+    "title": "Results That Speak"
+  },
+  "contact": {
+    "subtitle": "Get In Touch",
+    "title": "Let's boost your rankings",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email Address",
+    "messageLabel": "Project details or Message",
+    "sendButton": "Send Message",
+    "phone": "Call / WhatsApp",
+    "whatsapp": "Chat instantly"
+  },
+  "footer": {
+    "title": "Mohey ELDeen Mahmoud",
+    "subtitle": "Senior SEO Specialist",
+    "copyright": "All rights reserved. Designed for search dominance."
+  },
+  "admin": {
+    "title": "Dashboard",
+    "login": "Login to Admin Panel"
+  }
+}
