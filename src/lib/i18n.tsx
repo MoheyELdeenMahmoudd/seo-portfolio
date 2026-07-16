@@ -4,27 +4,33 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import en from '../i18n/en.json';
 import ar from '../i18n/ar.json';
 
-type Locale = 'en' | 'ar';
-type RouteLocale = 'eg-en' | 'eg-ar' | 'sa-en' | 'sa-ar';
-type Translations = typeof en;
+const translations = { en, ar };
+
+export type Locale = 'en' | 'ar';
+export type RouteLocale = 'en' | 'ar';
 
 interface I18nContextType {
   locale: Locale;
   routeLocale: RouteLocale;
-  setLocale: (routeLocale: RouteLocale) => void;
-  t: (key: string) => any;
+  setRouteLocale: (routeLocale: RouteLocale) => void;
+  t: (key: string) => string;
   dir: 'ltr' | 'rtl';
 }
 
-const I18nContext = createContext<I18nContextType | undefined>(undefined);
+const I18nContext = createContext<I18nContextType | null>(null);
 
-const translations: Record<Locale, Translations> = { en, ar };
-
-export function LanguageProvider({ children, initialLocale }: { children: React.ReactNode, initialLocale: string }) {
-  const [routeLocale, setRouteLocaleState] = useState<RouteLocale>((initialLocale as RouteLocale) || 'eg-en');
+export function LanguageProvider({ 
+  children, 
+  initialLocale = 'en' 
+}: { 
+  children: React.ReactNode; 
+  initialLocale?: string;
+}) {
+  const [routeLocale, setRouteLocaleState] = useState<RouteLocale>((initialLocale as RouteLocale) || 'en');
   const [mounted, setMounted] = useState(false);
   
-  const baseLocale: Locale = routeLocale.endsWith('-en') ? 'en' : 'ar';
+  // Extract actual language from the route locale
+  const locale: Locale = routeLocale === 'ar' ? 'ar' : 'en';
 
   useEffect(() => {
     setMounted(true);
@@ -32,42 +38,35 @@ export function LanguageProvider({ children, initialLocale }: { children: React.
 
   const setLocale = (newRouteLocale: RouteLocale) => {
     // Instead of state, redirect to the new subfolder path in the browser
-    // This hook will be used to trigger router navigation in LanguageSwitch
     window.location.href = `/${newRouteLocale}`;
   };
 
-  useEffect(() => {
-    if (mounted) {
-      document.documentElement.lang = baseLocale;
-      document.documentElement.dir = baseLocale === 'ar' ? 'rtl' : 'ltr';
-    }
-  }, [baseLocale, mounted]);
-
-  const t = (keyString: string) => {
-    const keys = keyString.split('.');
-    let current: any = translations[baseLocale];
-    
-    for (const key of keys) {
-      if (current[key] === undefined) {
-        console.warn(`Translation key not found: ${keyString}`);
-        return keyString;
+  const t = (key: string): string => {
+    const keys = key.split('.');
+    let value: any = translations[locale];
+    for (const k of keys) {
+      if (value[k] === undefined) {
+        return key; // fallback
       }
-      current = current[key];
+      value = value[k];
     }
-    
-    return current;
+    return value;
   };
 
+  const dir = locale === 'ar' ? 'rtl' : 'ltr';
+
+  if (!mounted) return null; // Avoid hydration mismatch
+
   return (
-    <I18nContext.Provider value={{ locale: baseLocale, routeLocale, setLocale, t, dir: baseLocale === 'ar' ? 'rtl' : 'ltr' }}>
-      {!mounted ? <div className="hidden">{children}</div> : children}
+    <I18nContext.Provider value={{ locale, routeLocale, setRouteLocale: setLocale, t, dir }}>
+      {children}
     </I18nContext.Provider>
   );
 }
 
 export function useTranslation() {
   const context = useContext(I18nContext);
-  if (context === undefined) {
+  if (!context) {
     throw new Error('useTranslation must be used within a LanguageProvider');
   }
   return context;

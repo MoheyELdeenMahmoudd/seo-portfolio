@@ -11,15 +11,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   
   return {
     title: "Mohey ELDeen Mahmoud - Senior SEO Specialist",
-    description: "Senior SEO Specialist & Content Strategist. Expert in On-Page, Off-Page, Technical, Semantic, and UX SEO. Driven by data, optimized for growth.",
+    description: "I drive websites to the top of search results. Expert in Technical, Semantic, and Local SEO.",
     alternates: {
       canonical: `${baseUrl}/${locale}`,
       languages: {
-        'en-EG': `${baseUrl}/eg-en`,
-        'ar-EG': `${baseUrl}/eg-ar`,
-        'en-SA': `${baseUrl}/sa-en`,
-        'ar-SA': `${baseUrl}/sa-ar`,
-        'x-default': `${baseUrl}/eg-en`,
+        'en': `${baseUrl}/en`,
+        'ar': `${baseUrl}/ar`,
+        'x-default': `${baseUrl}/en`,
       },
     },
   };

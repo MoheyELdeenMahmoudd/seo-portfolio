@@ -7,33 +7,29 @@ export default function LocalSeoSection() {
   const { routeLocale, dir } = useTranslation();
 
   const content = {
-    'eg-ar': {
-      title: 'خبير سيو في مصر',
-      subtitle: 'الاستهداف المحلي (Local SEO)',
-      description: 'أقدم خدمات تحسين محركات البحث المتقدمة في جميع أنحاء مصر (القاهرة، الإسكندرية، المنصورة، وغيرها). أساعد الشركات المصرية على الهيمنة على نتائج البحث المحلية وجذب العملاء المحتملين.',
-      cities: ['القاهرة', 'الإسكندرية', 'الجيزة', 'المنصورة'],
+    'en': {
+      title: 'Local SEO Domination',
+      subtitle: 'Conquer Your Local Market',
+      description: 'As a local SEO expert, I help businesses dominate Google Maps and local search results. From optimizing your Google Business Profile to building local citations, I ensure your business is the first choice for local customers.',
+      stats: [
+        { label: 'Google Business Profiles Optimized', value: '50+' },
+        { label: 'Increase in Local Traffic', value: '300%' },
+        { label: 'Top 3 Map Pack Rankings', value: '150+' }
+      ]
     },
-    'eg-en': {
-      title: 'SEO Expert in Egypt',
-      subtitle: 'Local SEO Strategy',
-      description: 'Providing advanced Search Engine Optimization services across Egypt (Cairo, Alexandria, Mansoura, etc.). I help Egyptian businesses dominate local search results and drive high-quality leads.',
-      cities: ['Cairo', 'Alexandria', 'Giza', 'Mansoura'],
-    },
-    'sa-ar': {
-      title: 'خبير سيو في السعودية',
-      subtitle: 'الاستهداف المحلي (Local SEO)',
-      description: 'أقدم خدمات سيو احترافية للشركات في المملكة العربية السعودية (الرياض، جدة، الدمام، مكة). تصدر نتائج البحث في السوق السعودي الواعد مع استراتيجيات مخصصة للسوق الخليجي.',
-      cities: ['الرياض', 'جدة', 'الدمام', 'مكة المكرمة'],
-    },
-    'sa-en': {
-      title: 'SEO Expert in Saudi Arabia',
-      subtitle: 'Local SEO Strategy',
-      description: 'Providing professional SEO services for businesses in Saudi Arabia (Riyadh, Jeddah, Dammam, Mecca). Dominate search results in the promising Saudi market with custom Gulf-tailored strategies.',
-      cities: ['Riyadh', 'Jeddah', 'Dammam', 'Mecca'],
-    },
+    'ar': {
+      title: 'اكتساح السيو المحلي',
+      subtitle: 'سيطر على سوقك المحلي',
+      description: 'كخبير في السيو المحلي، أساعد الشركات على تصدر خرائط جوجل ونتائج البحث المحلية. من تحسين ملفك التجاري على جوجل إلى بناء الإشارات المحلية، أضمن أن يكون نشاطك التجاري الخيار الأول للعملاء المحليين.',
+      stats: [
+        { label: 'ملف تجاري تم تحسينه', value: '+50' },
+        { label: 'زيادة في الزيارات المحلية', value: '%300' },
+        { label: 'تصدر في خرائط جوجل', value: '+150' }
+      ]
+    }
   };
 
-  const data = content[routeLocale as keyof typeof content] || content['eg-en'];
+  const data = content[routeLocale as keyof typeof content] || content['en'];
 
   return (
     <section className="py-24 relative z-10">
@@ -54,10 +50,10 @@ export default function LocalSeoSection() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
-              {data.cities.map((city, index) => (
-                <div key={index} className="flex items-center bg-[var(--bg)] px-4 py-2 rounded-xl border border-[var(--border)] shadow-sm">
-                  <svg className="w-5 h-5 text-primary mr-2 rtl:ml-2 rtl:mr-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                  <span className="font-bold text-[var(--text)]">{city}</span>
+              {data.stats.map((stat, index) => (
+                <div key={index} className="flex flex-col items-center justify-center bg-[var(--bg)] px-6 py-4 rounded-xl border border-[var(--border)] shadow-sm flex-1 min-w-[200px]">
+                  <span className="text-3xl font-black text-primary mb-2">{stat.value}</span>
+                  <span className="text-sm font-bold text-[var(--text-muted)] text-center">{stat.label}</span>
                 </div>
               ))}
             </div>
