@@ -1,10 +1,19 @@
 {
   "personal": {
-    "name": { "en": "Mohey ELDeen Mahmoud", "ar": "محيي الدين محمود" },
-    "title": { "en": "Senior SEO Specialist", "ar": "خبير سيو أول" },
+    "name": {
+      "en": "Mohey ELDeen Mahmoud",
+      "ar": "محيي الدين محمود"
+    },
+    "title": {
+      "en": "Head of SEO Content & Senior SEO Consultant",
+      "ar": "رئيس قسم محتوى السيو & خبير تحسين محركات البحث"
+    },
     "email": "moheymahmoud121@gmail.com",
     "phone": "+201551808231",
-    "location": { "en": "Cairo, Egypt", "ar": "القاهرة، مصر" },
+    "location": {
+      "en": "Cairo, Egypt",
+      "ar": "القاهرة، مصر"
+    },
     "social": {
       "linkedin": "https://www.linkedin.com/in/mohey-mahmoud/",
       "facebook": "https://www.facebook.com/moheyeldeen.mahmoud.9",
@@ -14,145 +23,391 @@
   "projects": [
     {
       "id": "tcmg",
-      "name": { "en": "TCMG Law Firm", "ar": "شركة TCMG للمحاماة" },
-      "featuredImage": "/images/projects/docx_img_0.png",
-      "description": { "en": "International law firm — Full SEO management, content writing, and Google My Business optimization. Built pages targeting key Arabic and English keywords.", "ar": "شركة محاماة دولية — إدارة سيو شاملة وكتابة محتوى وتحسين حساب Google My Business. بناء صفحات مستهدفة بكلمات مفتاحية عربية وإنجليزية." },
-      "results": { "en": "Grew from 0 to 400 clicks/day, #1 ranking for 'شركة محاماة', +600% sales growth, +450% organic growth.", "ar": "نمو من 0 إلى 400 نقرة يومياً، المركز الأول بكلمة 'شركة محاماة'، نمو مبيعات +600%، نمو طبيعي +450%." },
-      "fullContent": {
-        "challenge": { "en": "The client needed to establish an online presence from scratch and dominate highly competitive legal keywords.", "ar": "كان العميل بحاجة لبناء تواجد رقمي من الصفر وتصدر الكلمات المفتاحية القانونية شديدة المنافسة." },
-        "solution": { "en": "Implemented a comprehensive Semantic SEO strategy, built highly optimized landing pages, and managed continuous content creation targeting LSI keywords.", "ar": "تنفيذ استراتيجية سيو دلالي شاملة، وبناء صفحات هبوط محسنة بدقة، وإدارة إنشاء محتوى مستمر يستهدف كلمات LSI." },
-        "finalResults": { "en": "Achieved #1 rankings, increased clicks to 400/day, and boosted sales by 600%.", "ar": "تحقيق المركز الأول، وزيادة النقرات إلى 400/يوم، ورفع المبيعات بنسبة 600%." }
+      "name": {
+        "en": "TCMG Law Firm",
+        "ar": "شركة TCMG للمحاماة"
       },
-      "tags": ["On-Page SEO", "Off-Page SEO", "Content Writing", "GMB", "WordPress"],
-      "metrics": { "clicks": "400/day", "growth": "+600%", "ranking": "#1" }
+      "featuredImage": "/images/projects/docx_img_0.png",
+      "description": {
+        "en": "International law firm — Full SEO management, content writing, and Google My Business optimization. Built pages targeting key Arabic and English keywords.",
+        "ar": "شركة محاماة دولية — إدارة سيو شاملة وكتابة محتوى وتحسين حساب Google My Business. بناء صفحات مستهدفة بكلمات مفتاحية عربية وإنجليزية."
+      },
+      "results": {
+        "en": "Grew from 0 to 400 clicks/day, #1 ranking for 'شركة محاماة', +600% sales growth, +450% organic growth.",
+        "ar": "نمو من 0 إلى 400 نقرة يومياً، المركز الأول بكلمة 'شركة محاماة'، نمو مبيعات +600%، نمو طبيعي +450%."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "The client needed to establish an online presence from scratch and dominate highly competitive legal keywords.",
+          "ar": "كان العميل بحاجة لبناء تواجد رقمي من الصفر وتصدر الكلمات المفتاحية القانونية شديدة المنافسة."
+        },
+        "solution": {
+          "en": "Implemented a comprehensive Semantic SEO strategy, built highly optimized landing pages, and managed continuous content creation targeting LSI keywords.",
+          "ar": "تنفيذ استراتيجية سيو دلالي شاملة، وبناء صفحات هبوط محسنة بدقة، وإدارة إنشاء محتوى مستمر يستهدف كلمات LSI."
+        },
+        "finalResults": {
+          "en": "Achieved #1 rankings, increased clicks to 400/day, and boosted sales by 600%.",
+          "ar": "تحقيق المركز الأول، وزيادة النقرات إلى 400/يوم، ورفع المبيعات بنسبة 600%."
+        }
+      },
+      "tags": [
+        "On-Page SEO",
+        "Off-Page SEO",
+        "Content Writing",
+        "GMB",
+        "WordPress"
+      ],
+      "metrics": {
+        "clicks": "400/day",
+        "growth": "+600%",
+        "ranking": "#1"
+      }
     },
     {
       "id": "alothman",
-      "name": { "en": "AL Othman Law Firm", "ar": "آل عثمان للمحاماة" },
-      "featuredImage": "/images/projects/docx_img_1.png",
-      "description": { "en": "International law firm in Saudi Arabia — Complete website redesign, technical SEO overhaul, and content strategy for various legal sectors.", "ar": "شركة محاماة دولية بالسعودية — إعادة تصميم الموقع بالكامل وتطوير السيو التقني واستراتيجية المحتوى للقطاعات القانونية المختلفة." },
-      "results": { "en": "+177% clicks, +115% users, #1 for 'مكتب محاماة' and 'شركة محاماة', +1000% quarterly growth, decreased response time from 580ms to 471ms.", "ar": "نمو 177% في النقرات، 115% في المستخدمين، المركز الأول بكلمة 'مكتب محاماة' و 'شركة محاماة'، نمو 1000% من الربع السابق، تقليل وقت الاستجابة لـ 471ms." },
-      "fullContent": {
-        "challenge": { "en": "The website suffered from slow loading times and poor rankings for core commercial keywords like 'Law Firm in Saudi'.", "ar": "كان الموقع يعاني من بطء في التحميل وتصنيفات ضعيفة للكلمات التجارية الأساسية مثل 'مكتب محاماة'." },
-        "solution": { "en": "Executed a full Technical SEO audit, decreased server response time, optimized UX SEO, and deployed pillar content strategies.", "ar": "إجراء تدقيق سيو تقني شامل، وتقليل وقت استجابة الخادم، وتحسين تجربة المستخدم، ونشر استراتيجيات المحتوى الشامل." },
-        "finalResults": { "en": "Ranked #1 for primary keywords, boosted quarterly growth by 1000%, and improved site speed significantly.", "ar": "تصدر المركز الأول للكلمات الرئيسية، زيادة النمو الربع سنوي بنسبة 1000%، وتحسين سرعة الموقع بشكل ملحوظ." }
+      "name": {
+        "en": "AL Othman Law Firm",
+        "ar": "آل عثمان للمحاماة"
       },
-      "tags": ["Technical SEO", "UX SEO", "Content Strategy", "Custom Development"],
-      "metrics": { "clicks": "800/day", "growth": "+177%", "ranking": "#1" }
+      "featuredImage": "/images/projects/docx_img_1.png",
+      "description": {
+        "en": "International law firm in Saudi Arabia — Complete website redesign, technical SEO overhaul, and content strategy for various legal sectors.",
+        "ar": "شركة محاماة دولية بالسعودية — إعادة تصميم الموقع بالكامل وتطوير السيو التقني واستراتيجية المحتوى للقطاعات القانونية المختلفة."
+      },
+      "results": {
+        "en": "+177% clicks, +115% users, #1 for 'مكتب محاماة' and 'شركة محاماة', +1000% quarterly growth, decreased response time from 580ms to 471ms.",
+        "ar": "نمو 177% في النقرات، 115% في المستخدمين، المركز الأول بكلمة 'مكتب محاماة' و 'شركة محاماة'، نمو 1000% من الربع السابق، تقليل وقت الاستجابة لـ 471ms."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "The website suffered from slow loading times and poor rankings for core commercial keywords like 'Law Firm in Saudi'.",
+          "ar": "كان الموقع يعاني من بطء في التحميل وتصنيفات ضعيفة للكلمات التجارية الأساسية مثل 'مكتب محاماة'."
+        },
+        "solution": {
+          "en": "Executed a full Technical SEO audit, decreased server response time, optimized UX SEO, and deployed pillar content strategies.",
+          "ar": "إجراء تدقيق سيو تقني شامل، وتقليل وقت استجابة الخادم، وتحسين تجربة المستخدم، ونشر استراتيجيات المحتوى الشامل."
+        },
+        "finalResults": {
+          "en": "Ranked #1 for primary keywords, boosted quarterly growth by 1000%, and improved site speed significantly.",
+          "ar": "تصدر المركز الأول للكلمات الرئيسية، زيادة النمو الربع سنوي بنسبة 1000%، وتحسين سرعة الموقع بشكل ملحوظ."
+        }
+      },
+      "tags": [
+        "Technical SEO",
+        "UX SEO",
+        "Content Strategy",
+        "Custom Development"
+      ],
+      "metrics": {
+        "clicks": "800/day",
+        "growth": "+177%",
+        "ranking": "#1"
+      }
     },
     {
       "id": "selfdev",
-      "name": { "en": "Self-Development Blog", "ar": "موقع تطوير الذات" },
-      "featuredImage": "/images/projects/docx_img_2.png",
-      "description": { "en": "#1 self-development website in the Arab world — Full SEO setup, content strategy, internal linking, and custom images per article.", "ar": "الموقع الأول للتنمية الذاتية في العالم العربي — إعداد سيو شامل واستراتيجية محتوى وربط داخلي وتصميم صور مخصصة." },
-      "results": { "en": "Widespread reach across all Arab countries, consistent traffic growth and ranking improvements.", "ar": "انتشار واسع في جميع بلدان العالم العربي، نمو مستمر في الزيارات وتحسن الترتيب." },
-      "fullContent": {
-        "challenge": { "en": "Low organic visibility despite having valuable content.", "ar": "ضعف الظهور العضوي بالرغم من وجود محتوى قيم." },
-        "solution": { "en": "Developed a robust internal linking architecture and semantic content optimization.", "ar": "تطوير بنية ربط داخلي قوية وتحسين المحتوى دلالياً." },
-        "finalResults": { "en": "Became the #1 destination for self-development in the Arab world with massive organic reach.", "ar": "أصبح الوجهة الأولى لتطوير الذات في العالم العربي مع وصول عضوي ضخم." }
+      "name": {
+        "en": "Self-Development Blog",
+        "ar": "موقع تطوير الذات"
       },
-      "tags": ["SEO Content", "Keyword Research", "WordPress", "Content Marketing"],
-      "metrics": { "reach": "All Arab countries", "growth": "Consistent", "ranking": "Top Rankings" }
+      "featuredImage": "/images/projects/docx_img_2.png",
+      "description": {
+        "en": "#1 self-development website in the Arab world — Full SEO setup, content strategy, internal linking, and custom images per article.",
+        "ar": "الموقع الأول للتنمية الذاتية في العالم العربي — إعداد سيو شامل واستراتيجية محتوى وربط داخلي وتصميم صور مخصصة."
+      },
+      "results": {
+        "en": "Widespread reach across all Arab countries, consistent traffic growth and ranking improvements.",
+        "ar": "انتشار واسع في جميع بلدان العالم العربي، نمو مستمر في الزيارات وتحسن الترتيب."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "Low organic visibility despite having valuable content.",
+          "ar": "ضعف الظهور العضوي بالرغم من وجود محتوى قيم."
+        },
+        "solution": {
+          "en": "Developed a robust internal linking architecture and semantic content optimization.",
+          "ar": "تطوير بنية ربط داخلي قوية وتحسين المحتوى دلالياً."
+        },
+        "finalResults": {
+          "en": "Became the #1 destination for self-development in the Arab world with massive organic reach.",
+          "ar": "أصبح الوجهة الأولى لتطوير الذات في العالم العربي مع وصول عضوي ضخم."
+        }
+      },
+      "tags": [
+        "SEO Content",
+        "Keyword Research",
+        "WordPress",
+        "Content Marketing"
+      ],
+      "metrics": {
+        "reach": "All Arab countries",
+        "growth": "Consistent",
+        "ranking": "Top Rankings"
+      }
     },
     {
       "id": "tebyanalqima",
-      "name": { "en": "Tebyanalqima Real Estate", "ar": "تبيان القيمة للتقييم العقاري" },
-      "featuredImage": "/images/projects/docx_img_3.jpg",
-      "description": { "en": "Real estate valuation company in Saudi Arabia — Technical SEO, site speed optimization, and comprehensive content series.", "ar": "شركة تقييم عقاري بالسعودية — سيو تقني وتحسين سرعة الموقع وسلسلة مقالات متكاملة." },
-      "results": { "en": "+300% in clicks and impressions, improved site speed and Core Web Vitals.", "ar": "نمو 300%+ في النقرات والظهور، تحسين سرعة وأداء الموقع (Core Web Vitals)." },
-      "fullContent": {
-        "challenge": { "en": "Technical issues and poor site speed hindering indexing and ranking.", "ar": "مشاكل تقنية وضعف سرعة الموقع كانت تعيق الأرشفة والتصنيف." },
-        "solution": { "en": "Fixed Core Web Vitals, improved server response, and launched a comprehensive real estate content series.", "ar": "إصلاح Core Web Vitals، وتحسين استجابة الخادم، وإطلاق سلسلة مقالات عقارية شاملة." },
-        "finalResults": { "en": "+300% growth in clicks and flawless technical health score.", "ar": "نمو بنسبة 300% في النقرات ودرجة صحة تقنية خالية من الأخطاء." }
+      "name": {
+        "en": "Tebyanalqima Real Estate",
+        "ar": "تبيان القيمة للتقييم العقاري"
       },
-      "tags": ["Technical SEO", "Site Speed", "Content Series", "WordPress"],
-      "metrics": { "growth": "+300%", "type": "Real Estate" }
+      "featuredImage": "/images/projects/docx_img_3.jpg",
+      "description": {
+        "en": "Real estate valuation company in Saudi Arabia — Technical SEO, site speed optimization, and comprehensive content series.",
+        "ar": "شركة تقييم عقاري بالسعودية — سيو تقني وتحسين سرعة الموقع وسلسلة مقالات متكاملة."
+      },
+      "results": {
+        "en": "+300% in clicks and impressions, improved site speed and Core Web Vitals.",
+        "ar": "نمو 300%+ في النقرات والظهور، تحسين سرعة وأداء الموقع (Core Web Vitals)."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "Technical issues and poor site speed hindering indexing and ranking.",
+          "ar": "مشاكل تقنية وضعف سرعة الموقع كانت تعيق الأرشفة والتصنيف."
+        },
+        "solution": {
+          "en": "Fixed Core Web Vitals, improved server response, and launched a comprehensive real estate content series.",
+          "ar": "إصلاح Core Web Vitals، وتحسين استجابة الخادم، وإطلاق سلسلة مقالات عقارية شاملة."
+        },
+        "finalResults": {
+          "en": "+300% growth in clicks and flawless technical health score.",
+          "ar": "نمو بنسبة 300% في النقرات ودرجة صحة تقنية خالية من الأخطاء."
+        }
+      },
+      "tags": [
+        "Technical SEO",
+        "Site Speed",
+        "Content Series",
+        "WordPress"
+      ],
+      "metrics": {
+        "growth": "+300%",
+        "type": "Real Estate"
+      }
     },
     {
       "id": "sindi",
-      "name": { "en": "EL-Sindi Filters Store", "ar": "متجر السندي للفلاتر" },
-      "featuredImage": "/images/projects/docx_img_4.png",
-      "description": { "en": "Saudi filters e-commerce store — SEO & Content Management to boost sales and organic visibility.", "ar": "متجر فلاتر سعودي — إدارة سيو ومحتوى شاملة لزيادة المبيعات والظهور الطبيعي." },
-      "results": { "en": "Complete SEO and content management for Saudi market.", "ar": "إدارة سيو ومحتوى شاملة للسوق السعودي." },
-      "fullContent": {
-        "challenge": { "en": "E-commerce store lacked product descriptions and suffered from thin content.", "ar": "كان المتجر يفتقر لوصف المنتجات ويعاني من المحتوى الضعيف (Thin Content)." },
-        "solution": { "en": "Created unique, SEO-optimized product descriptions and managed Salla platform SEO settings.", "ar": "كتابة وصف فريد ومحسن للمنتجات وإدارة إعدادات السيو على منصة سلة." },
-        "finalResults": { "en": "Significant increase in organic visibility and product page rankings.", "ar": "زيادة ملحوظة في الظهور العضوي وتصنيفات صفحات المنتجات." }
+      "name": {
+        "en": "EL-Sindi Filters Store",
+        "ar": "متجر السندي للفلاتر"
       },
-      "tags": ["E-Commerce SEO", "Content Management", "Salla"],
-      "metrics": { "market": "Saudi Arabia", "type": "E-Commerce" }
+      "featuredImage": "/images/projects/docx_img_4.png",
+      "description": {
+        "en": "Saudi filters e-commerce store — SEO & Content Management to boost sales and organic visibility.",
+        "ar": "متجر فلاتر سعودي — إدارة سيو ومحتوى شاملة لزيادة المبيعات والظهور الطبيعي."
+      },
+      "results": {
+        "en": "Complete SEO and content management for Saudi market.",
+        "ar": "إدارة سيو ومحتوى شاملة للسوق السعودي."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "E-commerce store lacked product descriptions and suffered from thin content.",
+          "ar": "كان المتجر يفتقر لوصف المنتجات ويعاني من المحتوى الضعيف (Thin Content)."
+        },
+        "solution": {
+          "en": "Created unique, SEO-optimized product descriptions and managed Salla platform SEO settings.",
+          "ar": "كتابة وصف فريد ومحسن للمنتجات وإدارة إعدادات السيو على منصة سلة."
+        },
+        "finalResults": {
+          "en": "Significant increase in organic visibility and product page rankings.",
+          "ar": "زيادة ملحوظة في الظهور العضوي وتصنيفات صفحات المنتجات."
+        }
+      },
+      "tags": [
+        "E-Commerce SEO",
+        "Content Management",
+        "Salla"
+      ],
+      "metrics": {
+        "market": "Saudi Arabia",
+        "type": "E-Commerce"
+      }
     },
     {
       "id": "lessenes",
-      "name": { "en": "Lessenes Saudi Spa", "ar": "ليسينيس سبا" },
-      "featuredImage": "/images/projects/docx_img_5.jpg",
-      "description": { "en": "Saudi spa & wellness — Integrated SEO strategy and content writing tailored for local search.", "ar": "سبا ومركز عافية سعودي — استراتيجية سيو متكاملة وكتابة محتوى مخصصة للبحث المحلي." },
-      "results": { "en": "Comprehensive SEO strategy for the wellness sector.", "ar": "استراتيجية سيو شاملة لقطاع العافية." },
-      "fullContent": {
-        "challenge": { "en": "Need for strong Local SEO presence to drive foot traffic.", "ar": "الحاجة لوجود قوي في السيو المحلي (Local SEO) لجذب الزيارات للمركز." },
-        "solution": { "en": "Optimized Google My Business profile and localized website content.", "ar": "تحسين ملف Google My Business وتوطين محتوى الموقع." },
-        "finalResults": { "en": "Dominated local map pack and increased local search impressions.", "ar": "السيطرة على نتائج الخرائط المحلية وزيادة ظهور البحث المحلي." }
+      "name": {
+        "en": "Lessenes Saudi Spa",
+        "ar": "ليسينيس سبا"
       },
-      "tags": ["Local SEO", "Content Writing", "Keyword Research"],
-      "metrics": { "market": "Saudi Arabia", "type": "Wellness" }
+      "featuredImage": "/images/projects/docx_img_5.jpg",
+      "description": {
+        "en": "Saudi spa & wellness — Integrated SEO strategy and content writing tailored for local search.",
+        "ar": "سبا ومركز عافية سعودي — استراتيجية سيو متكاملة وكتابة محتوى مخصصة للبحث المحلي."
+      },
+      "results": {
+        "en": "Comprehensive SEO strategy for the wellness sector.",
+        "ar": "استراتيجية سيو شاملة لقطاع العافية."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "Need for strong Local SEO presence to drive foot traffic.",
+          "ar": "الحاجة لوجود قوي في السيو المحلي (Local SEO) لجذب الزيارات للمركز."
+        },
+        "solution": {
+          "en": "Optimized Google My Business profile and localized website content.",
+          "ar": "تحسين ملف Google My Business وتوطين محتوى الموقع."
+        },
+        "finalResults": {
+          "en": "Dominated local map pack and increased local search impressions.",
+          "ar": "السيطرة على نتائج الخرائط المحلية وزيادة ظهور البحث المحلي."
+        }
+      },
+      "tags": [
+        "Local SEO",
+        "Content Writing",
+        "Keyword Research"
+      ],
+      "metrics": {
+        "market": "Saudi Arabia",
+        "type": "Wellness"
+      }
     },
     {
       "id": "arabimotors",
-      "name": { "en": "ArabiMotors EVs Store", "ar": "عربي موتورز للسيارات الكهربائية" },
-      "featuredImage": "/images/projects/docx_img_6.jpg",
-      "description": { "en": "Electric vehicles e-commerce — SEO optimization and content creation for emerging EV market.", "ar": "متجر سيارات كهربائية — تحسين السيو وإنشاء المحتوى لسوق السيارات الكهربائية الناشئ." },
-      "results": { "en": "SEO optimization for emerging EV market.", "ar": "تحسين سيو لسوق السيارات الكهربائية الناشئ." },
-      "fullContent": {
-        "challenge": { "en": "Emerging market with new, low-volume keywords needing early dominance.", "ar": "سوق ناشئ بكلمات مفتاحية جديدة ومعدل بحث منخفض يتطلب الهيمنة المبكرة." },
-        "solution": { "en": "Content cluster creation targeting informational queries around EVs.", "ar": "إنشاء عناقيد محتوى (Content Clusters) تستهدف الاستفسارات المعلوماتية حول السيارات الكهربائية." },
-        "finalResults": { "en": "Captured top-of-funnel traffic and established brand authority.", "ar": "الاستحواذ على ترافيك بداية القمع وبناء موثوقية للعلامة التجارية." }
+      "name": {
+        "en": "ArabiMotors EVs Store",
+        "ar": "عربي موتورز للسيارات الكهربائية"
       },
-      "tags": ["E-Commerce SEO", "Content Writing", "Semantic SEO"],
-      "metrics": { "market": "MENA", "type": "E-Commerce" }
+      "featuredImage": "/images/projects/docx_img_6.jpg",
+      "description": {
+        "en": "Electric vehicles e-commerce — SEO optimization and content creation for emerging EV market.",
+        "ar": "متجر سيارات كهربائية — تحسين السيو وإنشاء المحتوى لسوق السيارات الكهربائية الناشئ."
+      },
+      "results": {
+        "en": "SEO optimization for emerging EV market.",
+        "ar": "تحسين سيو لسوق السيارات الكهربائية الناشئ."
+      },
+      "fullContent": {
+        "challenge": {
+          "en": "Emerging market with new, low-volume keywords needing early dominance.",
+          "ar": "سوق ناشئ بكلمات مفتاحية جديدة ومعدل بحث منخفض يتطلب الهيمنة المبكرة."
+        },
+        "solution": {
+          "en": "Content cluster creation targeting informational queries around EVs.",
+          "ar": "إنشاء عناقيد محتوى (Content Clusters) تستهدف الاستفسارات المعلوماتية حول السيارات الكهربائية."
+        },
+        "finalResults": {
+          "en": "Captured top-of-funnel traffic and established brand authority.",
+          "ar": "الاستحواذ على ترافيك بداية القمع وبناء موثوقية للعلامة التجارية."
+        }
+      },
+      "tags": [
+        "E-Commerce SEO",
+        "Content Writing",
+        "Semantic SEO"
+      ],
+      "metrics": {
+        "market": "MENA",
+        "type": "E-Commerce"
+      }
     }
   ],
   "experience": [
-    { 
-      "company": { "en": "Al-Master Tech", "ar": "الماستر للتكنولوجيا" }, 
-      "role": { "en": "SEO Specialist", "ar": "متخصص سيو" }, 
-      "period": "2024 - Present", 
-      "description": { "en": "Leading SEO strategies for major clients including AL Othman Law Firm. Managing comprehensive SEO campaigns, technical audits, and content strategies.", "ar": "قيادة استراتيجيات السيو لعملاء كبار بما في ذلك شركة آل عثمان للمحاماة. إدارة حملات سيو شاملة، تدقيقات تقنية، واستراتيجيات محتوى." } 
+    {
+      "company": {
+        "en": "AL Master Technology",
+        "ar": "الماستر"
+      },
+      "role": {
+        "en": "Head of SEO",
+        "ar": "رئيس قسم السيو"
+      },
+      "period": "Jul 2026 - Present",
+      "description": {
+        "en": "Leading the entire SEO department, developing overarching organic search strategies, and overseeing cross-functional teams for high-profile clients.",
+        "ar": "قيادة قسم السيو بالكامل، وتطوير استراتيجيات البحث العضوي الشاملة، والإشراف على الفرق لخدمة كبار العملاء."
+      }
     },
-    { 
-      "company": { "en": "Sindi Co", "ar": "شركة السندي" }, 
-      "role": { "en": "SEO & Content Manager", "ar": "مدير سيو ومحتوى" }, 
-      "period": "2024", 
-      "description": { "en": "Managed SEO and content marketing for Saudi filters e-commerce store.", "ar": "إدارة السيو والتسويق بالمحتوى لمتجر فلاتر سعودي للتجارة الإلكترونية." } 
+    {
+      "company": {
+        "en": "AL Master Technology",
+        "ar": "الماستر"
+      },
+      "role": {
+        "en": "Senior SEO Specialist",
+        "ar": "خبير سيو أول"
+      },
+      "period": "Jul 2025 - Jul 2026",
+      "description": {
+        "en": "Spearheaded advanced technical SEO audits and semantic content strategies for enterprise-level websites.",
+        "ar": "قيادة عمليات تدقيق السيو التقني المتقدمة واستراتيجيات المحتوى الدلالي للمواقع الكبرى."
+      }
     },
-    { 
-      "company": { "en": "TCMG Law Firm", "ar": "شركة TCMG للمحاماة" }, 
-      "role": { "en": "Content Writer & SEO", "ar": "كاتب محتوى ومتخصص سيو" }, 
-      "period": "2024", 
-      "description": { "en": "Built pages from scratch targeting key Arabic and English keywords, managed 40+ articles.", "ar": "بناء صفحات من الصفر مستهدفة بكلمات مفتاحية عربية وإنجليزية، وإدارة أكثر من 40 مقالة." } 
+    {
+      "company": {
+        "en": "New Capital",
+        "ar": "العاصمة الإدارية (New Capital)"
+      },
+      "role": {
+        "en": "SEO Specialist",
+        "ar": "أخصائي سيو"
+      },
+      "period": "Mar 2025 - Jul 2025",
+      "description": {
+        "en": "Managed organic growth for a highly competitive real estate niche, maximizing lead generation through Local SEO.",
+        "ar": "إدارة النمو العضوي في مجال العقارات شديد المنافسة، وزيادة توليد العملاء المحتملين عبر السيو المحلي."
+      }
     },
-    { 
-      "company": { "en": "Lessenes Saudi Spa", "ar": "ليسينيس سبا" }, 
-      "role": { "en": "SEO Specialist & Content Writer", "ar": "متخصص سيو وكاتب محتوى" }, 
-      "period": "2024", 
-      "description": { "en": "Developed an integrated SEO strategy and content for a premium Saudi spa.", "ar": "تطوير استراتيجية سيو متكاملة ومحتوى لسبا سعودي فاخر." } 
+    {
+      "company": {
+        "en": "BuyTheFans",
+        "ar": "BuyTheFans"
+      },
+      "role": {
+        "en": "SEO & Content Specialist",
+        "ar": "أخصائي سيو ومحتوى"
+      },
+      "period": "Aug 2024 - Dec 2024",
+      "description": {
+        "en": "Drove e-commerce SEO initiatives, optimizing service pages and improving conversion rates.",
+        "ar": "قيادة مبادرات السيو للتجارة الإلكترونية، وتحسين صفحات الخدمات ورفع معدلات التحويل."
+      }
     },
-    { 
-      "company": { "en": "Tebyanalqima", "ar": "تبيان القيمة" }, 
-      "role": { "en": "SEO Specialist & Content Writer", "ar": "متخصص سيو وكاتب محتوى" }, 
-      "period": "2023", 
-      "description": { "en": "Performed Technical SEO optimization and content creation for a real estate valuation company.", "ar": "تنفيذ تحسينات السيو التقني وإنشاء المحتوى لشركة تقييم عقاري." } 
+    {
+      "company": {
+        "en": "AL Master Technology",
+        "ar": "الماستر"
+      },
+      "role": {
+        "en": "Senior SEO Specialist",
+        "ar": "خبير سيو أول"
+      },
+      "period": "Dec 2023 - Aug 2024",
+      "description": {
+        "en": "Resolved complex crawlability issues and boosted topical authority across multiple client projects.",
+        "ar": "حل مشاكل الزحف المعقدة وتعزيز الموثوقية الموضوعية (Topical Authority) لمشاريع العملاء."
+      }
     },
-    { 
-      "company": { "en": "ArabiMotors", "ar": "عربي موتورز" }, 
-      "role": { "en": "SEO Specialist & Content Writer", "ar": "متخصص سيو وكاتب محتوى" }, 
-      "period": "2023", 
-      "description": { "en": "Handled SEO and content strategy for an electric vehicles e-commerce platform.", "ar": "إدارة استراتيجية السيو والمحتوى لمنصة تجارة إلكترونية للسيارات الكهربائية." } 
+    {
+      "company": {
+        "en": "AL Master Technology",
+        "ar": "الماستر"
+      },
+      "role": {
+        "en": "Mid-Level to Junior SEO",
+        "ar": "أخصائي سيو"
+      },
+      "period": "Jul 2022 - Nov 2023",
+      "description": {
+        "en": "Progressed from Junior to Mid-Level, executing on-page optimizations and link-building campaigns.",
+        "ar": "التدرج من جونيور إلى مستوى متوسط، مع تنفيذ تحسينات داخلية (On-page) وحملات بناء الروابط."
+      }
     },
-    { 
-      "company": { "en": "Arab WordPress", "ar": "عرب ووردبريس" }, 
-      "role": { "en": "Content Writer", "ar": "كاتب محتوى" }, 
-      "period": "2022", 
-      "description": { "en": "Content writing and optimization for a prominent Saudi WordPress blog.", "ar": "كتابة المحتوى وتحسينه لمدونة ووردبريس سعودية بارزة." } 
+    {
+      "company": {
+        "en": "Independent Consulting",
+        "ar": "مشاريع حرة واستشارات"
+      },
+      "role": {
+        "en": "SEO & Content Manager",
+        "ar": "مدير سيو ومحتوى"
+      },
+      "period": "2022 - 2024",
+      "description": {
+        "en": "Successfully delivered SEO and content projects for clients including Sindi Co, Lessenes Spa, TCMG, and ArabiMotors across GCC and MENA.",
+        "ar": "تسليم مشاريع سيو ومحتوى ناجحة لعدة عملاء في الخليج والشرق الأوسط مثل متجر السندي، سبا ليسينيس، TCMG، وعربي موتورز."
+      }
     }
   ]
 }
