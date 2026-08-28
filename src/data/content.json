@@ -5,8 +5,8 @@
       "ar": "د.محيي الدين محمود"
     },
     "title": {
-      "en": "Head of SEO Content & Senior SEO Consultant",
-      "ar": "رئيس قسم محتوى السيو & خبير تحسين محركات البحث"
+      "en": "Head of SEO",
+      "ar": "رئيس قسم السيو (Head of SEO)"
     },
     "email": "moheymahmoud121@gmail.com",
     "phone": "+201551808231",
@@ -307,7 +307,7 @@
     {
       "company": {
         "en": "AL Master Technology",
-        "ar": "الماستر"
+        "ar": "الماستر (AL Master)"
       },
       "role": {
         "en": "Head of SEO",
@@ -315,14 +315,14 @@
       },
       "period": "Jul 2026 - Present",
       "description": {
-        "en": "Leading the entire SEO department, developing overarching organic search strategies, and overseeing cross-functional teams for high-profile clients.",
-        "ar": "قيادة قسم السيو بالكامل، وتطوير استراتيجيات البحث العضوي الشاملة، والإشراف على الفرق لخدمة كبار العملاء."
+        "en": "Leading the SEO department and driving organic growth strategies for enterprise clients.",
+        "ar": "قيادة قسم الـ SEO وتطوير استراتيجيات النمو العضوي لكبار العملاء."
       }
     },
     {
       "company": {
         "en": "AL Master Technology",
-        "ar": "الماستر"
+        "ar": "الماستر (AL Master)"
       },
       "role": {
         "en": "Senior SEO Specialist",
@@ -330,8 +330,8 @@
       },
       "period": "Jul 2025 - Jul 2026",
       "description": {
-        "en": "Spearheaded advanced technical SEO audits and semantic content strategies for enterprise-level websites.",
-        "ar": "قيادة عمليات تدقيق السيو التقني المتقدمة واستراتيجيات المحتوى الدلالي للمواقع الكبرى."
+        "en": "Executed advanced technical audits and semantic content strategies.",
+        "ar": "تنفيذ تدقيقات تقنية متقدمة واستراتيجيات المحتوى الدلالي (Semantic SEO)."
       }
     },
     {
@@ -345,8 +345,8 @@
       },
       "period": "Mar 2025 - Jul 2025",
       "description": {
-        "en": "Managed organic growth for a highly competitive real estate niche, maximizing lead generation through Local SEO.",
-        "ar": "إدارة النمو العضوي في مجال العقارات شديد المنافسة، وزيادة توليد العملاء المحتملين عبر السيو المحلي."
+        "en": "Managed real estate SEO, maximizing local leads and organic traffic.",
+        "ar": "إدارة الـ SEO العقاري ومضاعفة توليد العملاء المحتملين والزيارات."
       }
     },
     {
@@ -360,14 +360,14 @@
       },
       "period": "Aug 2024 - Dec 2024",
       "description": {
-        "en": "Drove e-commerce SEO initiatives, optimizing service pages and improving conversion rates.",
-        "ar": "قيادة مبادرات السيو للتجارة الإلكترونية، وتحسين صفحات الخدمات ورفع معدلات التحويل."
+        "en": "Optimized e-commerce service pages and improved conversion rates.",
+        "ar": "تحسين صفحات التجارة الإلكترونية ورفع معدلات التحويل (CRO)."
       }
     },
     {
       "company": {
         "en": "AL Master Technology",
-        "ar": "الماستر"
+        "ar": "الماستر (AL Master)"
       },
       "role": {
         "en": "Senior SEO Specialist",
@@ -375,14 +375,14 @@
       },
       "period": "Dec 2023 - Aug 2024",
       "description": {
-        "en": "Resolved complex crawlability issues and boosted topical authority across multiple client projects.",
-        "ar": "حل مشاكل الزحف المعقدة وتعزيز الموثوقية الموضوعية (Topical Authority) لمشاريع العملاء."
+        "en": "Resolved complex crawlability issues and boosted topical authority.",
+        "ar": "حل مشاكل الزحف المعقدة وبناء الموثوقية الموضوعية (Topical Authority)."
       }
     },
     {
       "company": {
         "en": "AL Master Technology",
-        "ar": "الماستر"
+        "ar": "الماستر (AL Master)"
       },
       "role": {
         "en": "Mid-Level to Junior SEO",
@@ -390,14 +390,14 @@
       },
       "period": "Jul 2022 - Nov 2023",
       "description": {
-        "en": "Progressed from Junior to Mid-Level, executing on-page optimizations and link-building campaigns.",
-        "ar": "التدرج من جونيور إلى مستوى متوسط، مع تنفيذ تحسينات داخلية (On-page) وحملات بناء الروابط."
+        "en": "Executed on-page optimizations, technical fixes, and link-building campaigns.",
+        "ar": "تنفيذ تحسينات داخلية (On-page) وحملات بناء الروابط (Link-building)."
       }
     },
     {
       "company": {
         "en": "Independent Consulting",
-        "ar": "مشاريع حرة واستشارات"
+        "ar": "مشاريع حرة"
       },
       "role": {
         "en": "SEO & Content Manager",
@@ -405,8 +405,8 @@
       },
       "period": "2022 - 2024",
       "description": {
-        "en": "Successfully delivered SEO and content projects for clients including Sindi Co, Lessenes Spa, TCMG, and ArabiMotors across GCC and MENA.",
-        "ar": "تسليم مشاريع سيو ومحتوى ناجحة لعدة عملاء في الخليج والشرق الأوسط مثل متجر السندي، سبا ليسينيس، TCMG، وعربي موتورز."
+        "en": "Delivered successful SEO projects across GCC for diverse niches (Legal, E-commerce, Wellness).",
+        "ar": "إدارة مشاريع SEO ناجحة في الخليج لقطاعات متعددة (قانون، عقارات، متاجر)."
       }
     }
   ]
